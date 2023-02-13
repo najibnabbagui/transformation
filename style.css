@@ -1,0 +1,167 @@
+*{
+    
+    margin: 10px;
+}
+.nav{
+    background-color: rgba(128, 128, 128, 0.333);
+    width: 100%;
+    position: fixed;
+   
+}
+.logo{
+    display: flex;
+    justify-content: right;
+    top: 0;
+}
+.home{
+    background-image: url("images/landing.jpg");
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.home div p{
+    font-size: 30px;
+    display: flex;
+    font-size: 19px;
+    line-height: 1.8;
+    margin: 0 20px;
+    padding: 0 20px;
+    
+
+}
+.home h1{
+    font-size: 100px;
+    display: flex;
+}
+.box1{
+    border: outset;
+    margin: 20px;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    text-align: center;
+    
+}
+.box1:hover{
+    box-shadow: 20px 20px 20px;
+    transform: scale(2);
+   
+}
+.boxes{
+    position: relative;
+    display: flex;
+    margin: 50px;
+    
+    
+    
+}
+.box1 p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.srv img{
+    float: right;
+    width: 100px;
+    height: 300px;
+}
+.srv{
+    display: flex;
+    align-items: center;
+   
+
+    
+}
+.service p{
+    width: 200px;
+   margin: 10px 10px;
+
+}
+.service{
+    margin: 10px;
+    display: flex;
+    font-size: 20px;
+
+    
+}
+.service h1{
+  display: block;
+   margin: 50px;
+   padding: 50px;
+   font-size: 100px;
+   color: rgba(0, 0, 0, 0.282);
+  
+}
+.por1{
+    border: outset;
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+   
+   
+}
+.por{
+    display: flex;
+    margin: 50px;
+   
+
+}
+
+.por1{
+    position: relative;
+    border: outset;
+    width: auto;
+    height: auto;
+
+}
+.por1:hover{
+    box-shadow: 20px 20px 20px;
+    transform: scale(2);
+}
+.por1 img{
+    width: 500px;
+    height: 300px;
+
+}
+.port{
+    position: relative;
+    display: flex;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.nom{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.324);
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.156);
+}
+.about img{
+    width: 200px;
+    height: 300px;
+    float: left;
+    
+}
+.about p{
+    font-size: large 50px;
+    width: 600px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact a{
+    color: rgb(7, 133, 133);
+}
+
