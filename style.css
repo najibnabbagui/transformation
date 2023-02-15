@@ -167,4 +167,9 @@
 .contact a{
     color: rgb(7, 133, 133);
 }
+.contact p{
+    font-size: 3rem;
+    margin-left: 20px;
+    color: rgb(34, 0, 255);
+}
 
