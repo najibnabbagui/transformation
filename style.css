@@ -1,6 +1,8 @@
 *{
     
-    margin: 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .nav{
     background-color: rgba(128, 128, 128, 0.333);
@@ -72,22 +74,21 @@
     width: 100px;
     height: 300px;
 }
-.srv{
-    display: flex;
-    align-items: center;
-   
-
-    
-}
 .service p{
     width: 200px;
    margin: 10px 10px;
+   font-size: 20px;
 
 }
 .service{
     margin: 10px;
+    padding: 10px;
     display: flex;
-    font-size: 20px;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 30px;
+    
+
 
     
 }
@@ -173,3 +174,33 @@
     color: rgb(34, 0, 255);
 }
 
+    
+@media (max-width:900px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .service{
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+    .por{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+
+
+}
